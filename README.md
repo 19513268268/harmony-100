@@ -73,8 +73,8 @@
           url:'pages/login',
         })})
 ```
-![](/images/图片1.png)  
-![](/images/图片6.png)
+![](images/图片1.png)  
+![](images/图片6.png)
 ## 3.2账号的登录
 &emsp; 登录界面使用了，输入框、按钮和单选框。同时还使用了一个条件判断，根据usernam_rag正则表达式验证用户名格式，如果不符合要求则显示错误提示。
  ```
@@ -153,7 +153,7 @@
         .fontSize(15).fontColor("rgb(105,105,105)")
     }
 ```
-![](/images/图片2.png)  
+![](images/图片2.png)  
 &emsp; 使用了一个条件判断，根据usernam_rag正则表达式验证用户名格式，如果用户名输入少于五位就会出现图1.3的提示
 ```
     private username_rag = /^[A-Za-z0-9]{5,8}$/;
@@ -234,7 +234,7 @@
       }
     }
 ```
-![](/images/图片3.png)  
+![](images/图片3.png)  
 &emsp; 通过onClick触发点击图片。入评估问卷界面，通过对页面问题的回答来判断患者具体的身体情况。
  ```
      Swiper(this.swiperController) {
@@ -324,7 +324,7 @@
             this.controller.pause()
           })
 ```
-![](/images/图片5.png)
+![](images/图片5.png)
 # 4展望
 &emsp; 希望日后能跟着官方文档进行更深度的学习、开发鸿蒙APP，同时也希望随着我们开发程度的加深，我们的多数据融合可以和鸿蒙的多设备融合协同工作，为更多了脑卒中患者提供帮助，助他们早日康复。
 
