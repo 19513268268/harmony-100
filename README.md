@@ -71,7 +71,7 @@
         router.pushUrl({
           url:'pages/login',
         })})
-![ ](/images/注册页面.png)
+![image](https://github.com/19513268268/harmony-100/assets/138836521/aef59c92-678b-423c-affc-1e72feb975a6)
 ![ ](/images/注册成功页面.png)
 ## 3.2账号的登录
 #### 登录界面使用了，输入框、按钮和单选框。同时还使用了一个条件判断，根据usernam_rag正则表达式验证用户名格式，如果不符合要求则显示错误提示。
